@@ -13,4 +13,4 @@ function calcTen()
 }
 
 
-tenPercentBtn.onclick = function(calcTen);
+tenPercentBtn.addEventListener('click', calcTen)
