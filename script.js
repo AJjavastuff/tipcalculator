@@ -1,6 +1,6 @@
-var tenPercentBtn = document.getElementsByClassName('tenPercent');
-var tfifteenPercentBtn = document.getElementsByClassName('fifteenPercent');
-var twentyPercentBtn = document.getElementsByClassName('twentyPercent');
+var tenPercentBtn = document.querySelector('tenPercent');
+// var tfifteenPercentBtn = document.getElementsByClassName('fifteenPercent');
+// var twentyPercentBtn = document.getElementsByClassName('twentyPercent');
 var bill = document.getElementById('billInput');
 var tipEquals = document.getElementById('tipAmount');
 
@@ -13,4 +13,4 @@ function calcTen()
 }
 
 
-tenPercentBtn.addEventListener('click', calcTen);
+tenPercentBtn.addEventListener('click', calcTen)
